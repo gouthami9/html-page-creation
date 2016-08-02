@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title%}customfurnish{% endblock%}</title>
+    <link rel="stylesheet" href="/static/foundation.css">
+    <link rel="stylesheet" href="/static/foundation.min.css">
+    <link rel="stylesheet" href="/static/normalize.css">
+    <link rel="stylesheet" href="/static/app.css">
+    <script type="text/javascript" src="/static/modernizr.js"></script>
+
+</head>
+<body>
+<div class="off-canvas-wrap  show-for-medium-up">
+    <div class=" coloumns large-4 medium-4 small-8 left" >
+        <a href="/" ></a>
+        <img src="/static/custom-furnish.png" alt="customfurnish" >
+    </div>
+
+   <div class=" coloumns large-1 medium-2 small-3 left" style="padding-top:5px">
+        <img src="/static/fi-telephone.svg" style="width:30px;height:50px" alt="phone">
+        <a href="tel:040660660545" >040-660660545</a>
+
+    </div>
+    <div class="coloumns large1 medium1 small1 left" style="padding:5px">
+    <h3>|</h3>
+        </div>
+    <div class=" coloumns large-2 medium-2 small-3 left" style="padding:5px">
+        <img src="/static/fi-mail.svg" style="width:30px;height:50px" alt="mail">
+        <a href="wecare@customfurnish.com">wecare@kustommade.com</a>
+
+    </div>
+    <div class=" coloumns large-1 medium-2 small-3 left" style="padding:5px">
+        <div class="row">
+            <img src="/static/fi-torso.svg" style="width:50px;height:50px;align:center;" alt="signin">
+        </div>
+        <div class="row">
+            <a href="#" style="align:center">Sign in</a>
+        </div>
+    </div>
+    <div class=" coloumns large-1 medium-2 small-3 left" style="padding:5px">
+        <div class="row">
+            <img src="/static/cart.png" style="width:50px;height:50px;float:left;" alt="signin">
+        </div>
+        <div class="row">
+            <a href="#" style="float:center;"> Cart </a>
+        </div>
+
+    </div>
+</div>
+<div>
+     <nav class="top-bar" data-topbar role="navigation">
+
+          <section class="top-bar-section">
+           <ul class="left">
+               <li> <a href="#">LIVING ROOM</a></li>
+               <li> <a href="#">KITCHEN</a></li>
+               <li> <a href="#">BED ROOM</a></li>
+               <li> <a href="#">HOME DECOR</a> </li>
+               <li> <a href="#">OFFICE</a></li>
+               <li> <a href="#">FULL HOUSE</a> </li>
+               <li> <a href="#">DESIGN-SERVICE</a> </li>
+               <li> <a href="#">HOW IT WORKS</a> </li>
+               <li> <a href="#">OURPROJECTS </a> </li>
+               <li> <a href="#"> FAQ </a></li>
+           </ul>
+          </section>
+             <hr>
+
+    </nav>
+</div>
+<div class="off-canvas-wrapper main-wrapper">
+    <div class="image">
+        <img src="/static/orange-and-black-interior-artwork-ideas.jpg">
+        <h1 id="1">YOUR INTERIOR DESIGN PATTEREN</h1>
+        <h4 id="2">GET YOUR HOME DESIGNED BY OUR EXPERT DESIGNERS</h4>
+        <br>
+        <h3 id="3">DESIGN SERVIVICE <small>STARTS FROM</small> Rs 20,000/-*</h3>
+        <br>
+        <br>
+        <br>
+        <input id="4" type="button" value="KNOW MORE">
+        <p id="5">*Get All Production ready Documents-Designs,Engineering Drawings ,Bill of Material</p>
+
+    </div>
+</div>
+
+    <!--  body here -->
+        <div id="content">{% block body %}{% endblock %}</div>
+
+<footer class="footer" > footer</footer>
+
+</body>
+</html>

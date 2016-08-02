@@ -1,0 +1,40 @@
+.off-canvas-wrap{
+padding:15px;
+padding-right:25px;
+
+}
+nav.top-bar {
+text-align:center;
+
+background:white;
+padding:5px;
+}
+section.top-bar-section {
+display: inline-block;
+
+
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+background:#fff;
+color:#000;
+padding-right:25px;
+padding-left:25px;
+}
+.top-bar-section ul li:not(.has-form) a:not(.button):hover{
+background-color:white;
+color:tomato;
+}
+hr{
+border:2px solid tomato;
+}
+.image {
+   position: absolute;
+   width: 100%; /* for IE 6 */
+}
+
+#1,#2,#3,#4,#5 {
+   position: relative;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
