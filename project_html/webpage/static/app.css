@@ -28,13 +28,23 @@ hr{
 border:2px solid tomato;
 }
 .image {
-   position: absolute;
+   position: relative;
    width: 100%; /* for IE 6 */
 }
-
-#1,#2,#3,#4,#5 {
-   position: relative;
-   top: 200px;
+#one{
+     position: absolute;
+   top: 80px;
    left: 0;
    width: 100%;
+    text-align:center;
+    color:white;
+}
+#two{
+     position: absolute;
+   top: 600px;
+   left: 0;
+   width: 100%;
+    text-align:center;
+    background-color:transparent ;
+
 }

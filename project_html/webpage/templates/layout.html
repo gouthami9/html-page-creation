@@ -17,7 +17,7 @@
         <img src="/static/custom-furnish.png" alt="customfurnish" >
     </div>
 
-   <div class=" coloumns large-1 medium-2 small-3 left" style="padding-top:5px">
+   <div class=" coloumns large-1 medium-4 small-3 left" style="padding-top:5px">
         <img src="/static/fi-telephone.svg" style="width:30px;height:50px" alt="phone">
         <a href="tel:040660660545" >040-660660545</a>
 
@@ -43,7 +43,7 @@
             <img src="/static/cart.png" style="width:50px;height:50px;float:left;" alt="signin">
         </div>
         <div class="row">
-            <a href="#" style="float:center;"> Cart </a>
+            <a href="#" > Cart </a>
         </div>
 
     </div>
@@ -72,18 +72,37 @@
 <div class="off-canvas-wrapper main-wrapper">
     <div class="image">
         <img src="/static/orange-and-black-interior-artwork-ideas.jpg">
-        <h1 id="1">YOUR INTERIOR DESIGN PATTEREN</h1>
-        <h4 id="2">GET YOUR HOME DESIGNED BY OUR EXPERT DESIGNERS</h4>
-        <br>
-        <h3 id="3">DESIGN SERVIVICE <small>STARTS FROM</small> Rs 20,000/-*</h3>
-        <br>
-        <br>
-        <br>
-        <input id="4" type="button" value="KNOW MORE">
-        <p id="5">*Get All Production ready Documents-Designs,Engineering Drawings ,Bill of Material</p>
-
+        <div id="one">
+            <h1 style="color: white">YOUR INTERIOR DESIGN PATTEREN</h1><br>
+            <h4 style="color: white">GET YOUR HOME DESIGNED BY OUR EXPERT DESIGNERS</h4>
+            <br>
+            <h3 style="color: white">DESIGN SERVIVICE <small>STARTS FROM</small> Rs 20,000/-*</h3>
+            <br>
+            <br>
+            <br>
+            <a href="#" style="background-color: orangered" class="button">Know More</a>
+            <p>*Get All Production ready Documents-Designs,Engineering Drawings ,Bill of Material</p>
+        </div>
+        <div id="two" style="align-content: center">
+            <div class="columns large-2 medium-2 small-1 left">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="columns large-4 medium-4 small-2 left">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="columns large-2 medium-2 small-1 left">
+                <input type="text" placeholder="Number">
+            </div>
+            <div class="columns  medium-2 small-1 left">
+                <a href="#" style="background-color: orangered" class="button">Contanct Us</a>
+            </div>
+            <div class="columns  medium-2 small-1 left">
+                <a href="#" style="text-align:center">View-Packages</a>
+            </div>
+        </div>
     </div>
 </div>
+
 
     <!--  body here -->
         <div id="content">{% block body %}{% endblock %}</div>
