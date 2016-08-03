@@ -24,27 +24,69 @@ padding-left:25px;
 background-color:white;
 color:tomato;
 }
-hr{
+#A{
 border:2px solid tomato;
+max-width:100%;
 }
+section{
+width:100%;}
 .image {
    position: relative;
    width: 100%; /* for IE 6 */
+   margin-top:1%;
 }
 #one{
      position: absolute;
-   top: 80px;
+   top: 10%;
    left: 0;
    width: 100%;
     text-align:center;
     color:white;
 }
-#two{
-     position: absolute;
-   top: 600px;
-   left: 0;
-   width: 100%;
-    text-align:center;
-    background-color:transparent ;
-
+#two {
+   padding: 1%;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: whitesmoke;
+    opacity: 0.7;
 }
+#three {
+    border: none;
+    height: 100px;
+    width: 300px;
+}
+#four {
+    max-width: 75.5rem;
+    width: 100%;
+}
+#five{
+    max-width:85.5rem;}
+#B,#C,#D,#E,#F,#G,#H,#I{
+    text-align:center;
+    }
+#six{
+    margin-top:10px;
+    border:1px solid grey;
+    padding:25px;
+    }
+#seven{
+    margin-top:10px;
+    border:1px solid grey;
+    width:45%;
+    }
+table,th{
+        width: 70%;
+    border: 1px solid black;}
+tr,td{
+    border-left:1px solid black;
+    border-right:1px solid black;
+    }
+#eight{
+    border-right:1px lightgrey;}
+#J{
+    background-color:#ebf7f9;}
