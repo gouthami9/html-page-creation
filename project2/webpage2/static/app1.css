@@ -1,14 +1,17 @@
-.off-canvas-wrap{
-padding:15px;
-padding-right:25px;
+#four{
+      max-width:120rem;
+      background-color:#DDDDDD;
+      }
+#one{
+    max-width:120rem;
+    }
 
-}
 nav.top-bar {
-text-align:center;
+    text-align:center;
 
-background:white;
-padding:5px;
-}
+    background:white;
+    padding:5px;
+    }
 section.top-bar-section {
 display: inline-block;
 
@@ -17,7 +20,7 @@ display: inline-block;
 .top-bar-section li:not(.has-form) a:not(.button){
 background:#fff;
 color:#000;
-padding-right:25px;
+padding-right:15px;
 padding-left:25px;
 }
 .top-bar-section ul li:not(.has-form) a:not(.button):hover{
@@ -28,44 +31,11 @@ color:tomato;
 border:2px solid tomato;
 max-width:100%;
 }
-section{
-width:100%;}
-.image {
-   position: relative;
-   width: 100%; /* for IE 6 */
-   margin-top:1%;
-}
-#one{
-     position: absolute;
-   top: 10%;
-   left: 0;
-   width: 100%;
-    text-align:center;
-    color:white;
-}
-#two {
-   padding: 1%;
-    position: absolute;
-    top: 85%;
-    left: 0;
-    width: 100%;
-    height: 10%;
-    text-align: center;
-    vertical-align: middle;
-    background-color: whitesmoke;
-    opacity: 0.7;
-}
 #three {
     border: none;
-    height: 100px;
-    width: 300px;
+    height: 50px;
+    width: 180px;
 }
-#four {
-    max-width: 75.5rem;
-    width: 100%;
-}
-#five{
-    max-width:85.5rem;}
 #B,#C,#D,#E,#F,#G,#H,#I{
     text-align:center;
     }
@@ -111,8 +81,11 @@ tr,td{
     margin-bottom: 150px;
 }
 #O{
-width:100%
+max-width:50%
     }
+.footer{
+color:black;
+background:	#F5F5DC; }
 a{
 color:black;}
 #P{
@@ -122,16 +95,25 @@ margin-bottom:2%;
 width:97%;
 }
 #Q,#R,#S,#T,#U,#V{
-padding:1px;
+padding:1px;}
+#AA,#CC,#EE,#GG{
+border:1px solid black;
+height:202px;
+padding-top:16px;
+box-shadow:0px 0px 2px 2px #000;
 }
-.tabs li{
-    width:16.6%;
-    color:black;
-    }
-.tabs .tab-title>a {
-background-color:black;
-color:white;
+#BB,#DD,#FF{
+    margin-top: 140%;
+    width: 32px;
+    height: 48px;
+    margin-left: 11px;
+
+
 }
-.num_font{
-font-size: 150%
+h6{
+text-align:center;
 }
+#two{
+max-width:81rem;}
+.tabs-content{
+background-color:#DDDDDD }
