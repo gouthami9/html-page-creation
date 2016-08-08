@@ -3,6 +3,9 @@ padding:15px;
 padding-right:25px;
 
 }
+img:hover{
+opacity:0.5;
+}
 nav.top-bar {
 text-align:center;
 
@@ -118,9 +121,11 @@ color:black;}
 #P{
 margin-bottom:2%;
 }
+
 #ten{
-width:97%;
-}
+    width: 483px;
+    height: 343px;
+    }
 #Q,#R,#S,#T,#U,#V{
 padding:1px;
 }
@@ -135,3 +140,42 @@ color:white;
 .num_font{
 font-size: 150%
 }
+#deco,#plan{
+text-align:center;
+    background-color:#006080;
+    color:white;
+    padding:5%;}
+.circle{
+    padding:20px;
+    position:relative;
+    }
+#circle-3{
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    left: 13%;
+    vertical-align: middle;
+    color: white;
+}
+#circle-2{
+position: absolute;
+    top: 35%;
+    color: white;
+    left: 38%;
+    vertical-align: middle;
+    }
+#circle-4{
+    position: absolute;
+    top: 27%;
+    color: white;
+    left: 31%;
+    vertical-align: middle;
+    }
+#circle-1{
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    left: 20%;
+    vertical-align: middle;
+    color: white;
+    }
